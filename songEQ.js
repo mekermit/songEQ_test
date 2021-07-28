@@ -6,13 +6,6 @@ let fft;
 let pSBtn;
 let radioEqFreq;
 
-/* function randomFreq() {
-    setInterval(() => {
-        const freq = 100 + Math.random() * 15900;
-        eqWhiteNoise.freq(freq);
-    }, 1000)
-} */
-
 function playStopBtn() {
     if (!song.isPlaying()) {
         song.play();
